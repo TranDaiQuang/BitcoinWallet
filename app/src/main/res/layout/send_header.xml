@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llAdd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/from"
+        android:textStyle="bold"
+        android:textColor="@color/text_color" />
+
+    <Spinner
+        android:id="@+id/spinnerPresets"
+        style="@style/spinner_style"
+        android:dropDownVerticalOffset="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/custom_spinner_background"
+        android:paddingLeft="0dp"
+        android:spinnerMode="dropdown" />
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvDetails"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal"-->
+    <!--android:background="@color/item_back"-->
+    <!--android:gravity="center"-->
+    <!--android:paddingTop="5dp"-->
+    <!--android:paddingBottom="5dp"-->
+    <!--android:fontFamily="sans-serif"-->
+    <!--android:paddingRight="10dp"-->
+    <!--android:paddingLeft="10dp"-->
+    <!--android:textColor="@color/text_color_light"-->
+    <!--android:textSize="12sp"-->
+    <!--android:text="@string/details" />-->
+
+    <TextView
+        android:id="@+id/tvDescrTransaction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/item_back"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:text="lkfmwekfkwe"
+        android:textColor="@color/text_color_light"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/sdljwefkwewefml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/item_back"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/tvLeftover"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/leftover_return_to_new_address"
+            android:textColor="@color/text_color_light"
+            android:textSize="12sp" />
+
+        <CheckBox
+            android:id="@+id/cbLeftOver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/to"
+        android:textStyle="bold"
+        android:textColor="@color/text_color" />
+
+</LinearLayout>

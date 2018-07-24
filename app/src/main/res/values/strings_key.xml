@@ -1,0 +1,12 @@
+<resources>
+
+    <string translatable="false" name="facebook_app_id">83287529837584723</string>
+    <string translatable="false" name="fb_login_protocol_scheme">fb948737363269</string>
+
+    <string translatable="false" name="email_feedback">topbtcwallet@gmail.com</string>
+
+    <string translatable="false" name="privacy_policy_url">https://github.com/CryptoAppsDev/BitcoinWallet/blob/master/privacy.md</string>
+    <string translatable="false" name="terms_of_use_url">https://github.com/CryptoAppsDev/BitcoinWallet/blob/master/terms%20of%20use.md</string>
+    <string translatable="false" name="site_url">https://github.com/CryptoAppsDev/BitcoinWallet</string>
+
+</resources>

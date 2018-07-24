@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#576fd4</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#576fd4</color>
+
+    <color name="white">#FFFFFe</color>
+    <color name="black">#000000</color>
+    <color name="white_nonselected">#B4AFAF</color>
+
+
+
+    <color name="dialog_title_back">#576fd4</color>
+    <color name="dialog_title_back_pressed">#303F9F</color>
+    <color name="hint">#34000000</color>
+    <color name="text_color">#777777</color>
+    <color name="text_color_light">#b2b2b2</color>
+    <color name="item_back">#f0f2f3</color>
+    <color name="actionpressed_back">#f0f2f3</color>
+
+    <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+
+
+
+    <color name="mainDisabledColor">#26C6DA</color>
+    <color name="mainAccentColor">#56a9f1</color>
+    <color name="mainPressedColor">#FF4081</color>
+    <color name="pbBack">#10000000</color>
+
+    <color name="disabled_color">#73FFFFFe</color>
+
+    <color name="onboadingback_1">#26C6DA</color>
+    <color name="onboadingback_2">#42A5F5</color>
+    <color name="onboadingback_3">#5C6BC0</color>
+    <color name="onboadingback_4">#3949AB</color>
+    <color name="onboadingback_5">#512DA8</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+    <color name="action_bar_color">#4c5053</color>
+
+
+    <color name="address_color_1">#ef5350</color>
+    <color name="address_color_2">#512da8</color>
+    <color name="address_color_3">#3f51b5</color>
+    <color name="address_color_5">#039be5</color>
+    <color name="address_color_6">#ff9800</color>
+    <color name="address_color_7">#009688</color>
+    <color name="address_color_8">#ffb300</color>
+    <color name="address_color_9">#43a047</color>
+    <color name="address_color_10">#ffeb3b</color>
+
+</resources>
